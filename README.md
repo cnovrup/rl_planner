@@ -3,6 +3,6 @@ Reinforcement learning for local planning, pathfollowing and obstacle avoidance 
 
 ## Running the simulator
 to run the simulator with a pretrained agent, run `run.py` and the simulator should open, running a pretrained model. If the script `tractor_env.py` is run, the same environment will run but using arrow keys for control. The scripts can be modified to have different sample rate, reference frame, etc.
-1
+
 ## training
 run '''train.py'''. it accepts a number of arguments which can be found in the file. It runs training with the hyperparameters that were found to work the best. As default it will train from scratch, but to train on a previously trained model add `--continue_checkpoint 1` and it will resume training from `checkpoint.zip` which should be located in the root folder.
